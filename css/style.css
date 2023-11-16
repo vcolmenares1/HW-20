@@ -1,3 +1,28 @@
 .nav {
     justify-content: end;
 }
+.jumbotron {
+    margin: 20px;
+    align-items: center;
+    display: block; 
+}
+.container { 
+    margin: 40px 20px;
+    border: 50px;
+    display: block;
+
+}
+.affinityDiagram {
+    height: 300px;
+    width: auto;
+    vertical-align: middle;
+}
+.competitorAnalysis {
+    height: 400px;
+    width:auto;
+    vertical-align: middle;
+}
+.userPersona {
+    height: 700px;
+    width: auto;
+}

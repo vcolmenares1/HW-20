@@ -7,23 +7,27 @@
     <title>Bootstrap demo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-        crossorigin="anonymous"></script><script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
         crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
         integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
         crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/8afc2e4932.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
+    <!--navigation-->
     <nav class="navbar bg-body-tertiary">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
-                <img src="/img/logo-header.png" width="30" height="24" class="d-inline-block align-text-top">
+                <img src="img/logo-header.png" width="30" height="24" class="d-inline-block align-text-top">
                 case studies </a>
         </div>
+        <!--nav items-->
         <ul class="nav justify-content-end">
             <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
@@ -39,81 +43,110 @@
             </li>
 
         </ul>
+        <!--search bar-->
         <form class="form-inline">
             <div class="input-group">
                 <div class="input-group-prepend">
-                    <span class="input-group-text" id="basic-addon1">@</span>
+                    <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-magnifying-glass"
+                            style="color: #000000;"></i></span>
                 </div>
                 <input type="text" class="form-control" placeholder="Search" aria-label="Search"
                     aria-describedby="basic-addon1">
             </div>
         </form>
     </nav>
+    <!--Jumbotron-->
 
-    <h1>Case Study: The Cat Network</h1>
-    <div>
-        <p>A non-profit redesign story</p>
+    <div class="jumbotron">
+        <h1 class="display-4">Case Study: The Cat Network</h1>
+        <p class="lead">A nonprofit redesign story</p>
+        <hr class="my-4">
         <p>Valentina Colmenares, Alejandra Penas, Eleana Gomez, Jasmine Pierce</p>
         <p>August 2023</p>
+        <p class="lead">
+            <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+        </p>
     </div>
-    <img src="/img/Rectangle 8.png">
-    <h2>Objectives</h2>
-    <p>Project Description: Our goal was to test and analyze the function of elements, improve, and reconstruct the Cat
-        Network's current website design while evaluating website heuristics and usability to ensure ease of use and
-        display information efficiently.
-
-        Team Members: Alejandra Penas, Eleana Gomez, Jasmine Pierce, Valentina Colmenares
-
-        Tools Used: Figma, FigJam, Google Drive, Google Slides, Google Docs.
-        Project Overview
-
-        The Problem:The current website for the non-profit organization, The Cat Network, has issues with user clarity
-        on how to find information about volunteer opportunities, how to adopt available cats and how to best educate
-        the public on the social issues that they aim to correct.
-
-        The Solution: A reorganization and redesign of the main navigation, as well as providing more visual aids to the
-        user for how to navigate the website in order to complete their tasks and be better informed of the number of
-        ways in which the user can provide support to the nonprofit organization.
-    </p>
-    <h2>Research</h2>
-    <p>Our research began with a heuristic evaluation of the home page, about page and volunteer page. We found that the
-        website lacked depth, using white space inappropriately. The website's main functions were unclear, and users
-        often could not find the information they were looking for, or had to go through multiple screens to complete a
-        main task.
-        The team developed interview questions after defining a persona, placing ourselves in the user's shoes. The
-        interview began with introductory questions about the interviewee's demographics, and then dove into the main
-        lines of questioning. Our topics sought to define the interviewee's level of experience participating in
-        community service programs, what drives users to support nonprofits, affinity towards caring for animals, and
-        their opinions on education about community issues.
-
-        After conducting our interviews we found that most users have some level of experience in volunteering, most
-        notably for food banks. All interviewees were pet owners, having either a dog, cat or both. All interviewees
-        identified as animal lovers, and expressed willingness to aid local animals in need.
-
-        Next, the team looked at three websites of similar nature, Stray Paws Safe Haven, Alley Cat Allies, and the
-        Feral Cat Program of Georgia. We analyzed the sites to identify must-have features for other animal non-profit
-        organizations. We decided to prioritize that users are able to easily identify a donate button, include current
-        events, and easily learn about ways to get involved or support the organization as the most important features
-        to include in our redesign.
-    </p>
-
-    <h2>Affinity Diagram</h2>
-    <img src="/img/Affinity Diagram and Empathy Map.png">
-    <h2>Feature Prioritization</h2>
-    <img src="/img/Competitor Analysis.png">
-    <h2>User Persona</h2>
-    <img src="/img/Proto-Persona and User-Persona-2.png">
-    <h2>User Flow</h2>
-    <img src="/img/User Flow.png">
-    <h2>Sketches</h2>
-    <p>Sketches and Wireframes
-        We began the design process with a sketch of the Home Page. We placed “About Us,” “How to Help,” “Community,”
-        and “Donate” on the main navigation, as our research showed that these were most often used by people using
-        animal nonprofit websites.</p>
-        <img src="/img/The Cat Network Sketches.png">
-        
 
     
+
+        <!--main content-->
+        <!--add section-->
+
+    <div class="container">
+        <img src="img/Rectangle 8.png">
+        <h2>Objectives</h2>
+        <p>Project Description: Our goal was to test and analyze the function of elements, improve, and reconstruct the
+            Cat
+            Network's current website design while evaluating website heuristics and usability to ensure ease of use and
+            display information efficiently.
+
+            Team Members: Alejandra Penas, Eleana Gomez, Jasmine Pierce, Valentina Colmenares
+
+            Tools Used: Figma, FigJam, Google Drive, Google Slides, Google Docs.
+            Project Overview
+
+            The Problem:The current website for the non-profit organization, The Cat Network, has issues with user
+            clarity
+            on how to find information about volunteer opportunities, how to adopt available cats and how to best
+            educate
+            the public on the social issues that they aim to correct.
+
+            The Solution: A reorganization and redesign of the main navigation, as well as providing more visual aids to
+            the
+            user for how to navigate the website in order to complete their tasks and be better informed of the number
+            of
+            ways in which the user can provide support to the nonprofit organization.
+        </p>
+        <h2>Research</h2>
+        <p>Our research began with a heuristic evaluation of the home page, about page and volunteer page. We found that
+            the
+            website lacked depth, using white space inappropriately. The website's main functions were unclear, and
+            users
+            often could not find the information they were looking for, or had to go through multiple screens to
+            complete a
+            main task.
+            The team developed interview questions after defining a persona, placing ourselves in the user's shoes. The
+            interview began with introductory questions about the interviewee's demographics, and then dove into the
+            main
+            lines of questioning. Our topics sought to define the interviewee's level of experience participating in
+            community service programs, what drives users to support nonprofits, affinity towards caring for animals,
+            and
+            their opinions on education about community issues.
+
+            After conducting our interviews we found that most users have some level of experience in volunteering, most
+            notably for food banks. All interviewees were pet owners, having either a dog, cat or both. All interviewees
+            identified as animal lovers, and expressed willingness to aid local animals in need.
+
+            Next, the team looked at three websites of similar nature, Stray Paws Safe Haven, Alley Cat Allies, and the
+            Feral Cat Program of Georgia. We analyzed the sites to identify must-have features for other animal
+            non-profit
+            organizations. We decided to prioritize that users are able to easily identify a donate button, include
+            current
+            events, and easily learn about ways to get involved or support the organization as the most important
+            features
+            to include in our redesign.
+        </p>
+
+        <h2>Affinity Diagram</h2>
+        <img class="affinityDiagram"src="img/Affinity Diagram and Empathy Map.png">
+        <h2>Feature Prioritization</h2>
+        <img class="competitorAnalysis" src="img/Competitor Analysis.png">
+        <h2>User Persona</h2>
+        <img class="userPersona"src="img/Proto-Persona and User-Persona-2.png">
+        <h2>User Flow</h2>
+        <img class="userFlow"src="img/User Flow.png">
+        <h2>Sketches</h2>
+        <p>Sketches and Wireframes
+            We began the design process with a sketch of the Home Page. We placed “About Us,” “How to Help,”
+            “Community,”
+            and “Donate” on the main navigation, as our research showed that these were most often used by people using
+            animal nonprofit websites.</p>
+        <img src="img/The Cat Network Sketches.png">
+    </div>
+
+
+
 </body>
 
 
