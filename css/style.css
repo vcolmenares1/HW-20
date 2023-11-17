@@ -1,6 +1,10 @@
 .nav {
     justify-content: end;
 }
+.logoHeader {
+    height:auto;
+    width:auto;
+}
 .jumbotron {
     margin: 20px;
     align-items: center;
@@ -11,18 +15,10 @@
     border: 50px;
     display: block;
 
+
 }
-.affinityDiagram {
-    height: 300px;
-    width: auto;
-    vertical-align: middle;
-}
-.competitorAnalysis {
-    height: 300px;
-    width:auto;
-    vertical-align: middle;
-}
-.userPersona {
-    height: 300px;
-    width: auto;
+.projectImages {
+    width: 80%;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
